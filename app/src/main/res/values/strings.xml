@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Repsol Aplicacion Operario</string>
+    <string name="gps_advice_tittle">Aviso</string>
+    <string name="gps_advice_text">Debe activar el GPS</string>
+    <string name="vpn_advice_text">Recuerde Activar la VPN para conectarse al MQTT</string>
+    <string name="but_accept">OK</string>
+    <string name="but_cancel">CANCELAR</string>
+    <string name="connection_losts">Se ha perdido la conexion</string>
+    <string name="but_rec">RECONECTAR</string>
+    <string name="chat">Chat</string>
+    <string name="salir">Salir</string>
+    <string name="enviar">Enviar</string>
+    <string name="txtPla">Texto a enviar</string>
+    <string name="borrar">Borrar Historial</string>
+</resources>

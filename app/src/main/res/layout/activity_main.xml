@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_scrolling"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/colorBlue"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appope.ibm.com.aplicacionoperario.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/ibmrepsol"
+        android:id="@+id/imageView"
+        tools:ignore="ContentDescription"
+        android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/colorRed"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:text="@string/chat"
+        android:layout_width="150dp"
+        android:background="@drawable/borderbutton"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        android:textAllCaps="true"
+        android:textColor="@color/colorRed"
+        android:id="@+id/chat"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/salir"
+        android:layout_marginTop="23dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry"
+        android:layout_height="60dp" />
+
+    <Button
+        android:text="@string/salir"
+        android:background="@drawable/borderbutton"
+        android:layout_width="150dp"
+        android:textSize="21sp"
+        android:textAllCaps="true"
+        android:textColor="@color/colorRed"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/salir"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/borrar"
+        android:background="@drawable/borderbutton"
+        android:layout_width="150dp"
+        android:textSize="21sp"
+        android:layout_height="60dp"
+        android:textAllCaps="true"
+        android:textColor="@color/colorRed"
+        android:layout_above="@+id/salir"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:id="@+id/borrar" />
+
+
+</RelativeLayout>
